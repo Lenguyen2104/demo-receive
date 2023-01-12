@@ -1,0 +1,12 @@
+debug: true
+server:
+  port: 9084
+redis:
+  host: localhost
+  port: 6379
+
+spring:
+  application:
+    name: demo-sender
+    zipkin:
+      baseUrl: http://127.0.0.1:9411/
